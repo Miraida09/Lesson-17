@@ -1,0 +1,20 @@
+.title {
+    width: 500px;
+    height: 250px;
+    background-color: aqua;
+
+    cursor: pointer;
+    transition: transform 0.25s ease, 0.3s;
+    box-shadow: 0 0 10px black;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.title:hover {
+    transform: translateY(-6px) scale(1.05);
+}
+.title h1 {
+    margin: 0 auto;
+    margin-top: 100px;
+}
